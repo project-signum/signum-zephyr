@@ -1,0 +1,11 @@
+# Analog Devices Pluto SDR board
+
+# Copyright (c) 2023 Brett Witherspoon
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_PLUTO
+
+config BOARD
+	default "pluto"
+
+endif # BOARD_PLUTO

@@ -1,0 +1,8 @@
+# Analog Devices Pluto SDR board configuration
+
+# Copyright (c) 2023 Brett Witherspoon
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_PLUTO
+	bool "Analog Devices Pluto SDR"
+	depends on SOC_XILINX_XC7Z010
